@@ -98,15 +98,14 @@ if selected == 'Project':
             st.subheader("Project Title: Hospital Management System")
             st.write("""
             Description: This project involves creating a comprehensive hospital management system 
-            that can handle patient records, appointments, billing, and inventory management.
+            that can handle patient records.
             
             Technologies Used:
             - Python
-            - Django
-            - HTML/CSS
-            - JavaScript
+            - Tkinter
+            - MySQL
             
-            [Project Link](https://github.com/your-username/hospital-management-system)
+            [Project Link](https://github.com/ARAVINDANS25/Python_and_SQL-project/blob/main/Hospital%20Management%20System.ipynb)
             """)
     st.write("---")
   
