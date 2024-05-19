@@ -53,9 +53,39 @@ if selected == 'About':
     with col1:
       st.write("##")
       st.subheader("I am Aravindan S")
-      st.title("PG at MCA")
+      st.subheader("Postgraduate at Sastra Deemed University")
     with col2:
         st_lottie(lottie_coder)
+  st.write("---")
+  
+  with st.container():
+      col3,col4 = st.columns(2)
+      with col3:
+          st.subheader("""
+          Education
+          - Shanmugha Arts, Science, Technology and Research Academy
+              - Master of Computer Applications - MCA
+              - Grade : 8.3 CGPA
+          - M.I.E.T. Arts College, Gundur, Tiruchirappalli - 620 007
+              - Bachelor's degree Mathematics
+              - Grade : 8.5 CGPA
+          - Khajamian Hr.sec school,Trichy
+              - 12th 
+              - Grade : 57.8%
+          - A.M.R.C Hr.sec school,Trichy
+              - 10th
+              - Grade : 78.8%
+              """)
+              
+            
+          
+          
+
+
+
+    
+
+
 
     
       
