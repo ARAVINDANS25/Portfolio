@@ -165,5 +165,5 @@ if selected == 'Contacts':
         
         - [LinkedIn](https://www.linkedin.com/in/aravindan-s25/)
         - [GitHub](https://github.com/ARAVINDANS25)
-        - [Email](aravindans2503@gmail.com)
+        - [Email](mailto:aravindans2503@gmail.com)
         """)
