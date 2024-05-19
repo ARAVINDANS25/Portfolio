@@ -94,7 +94,7 @@ if selected == 'Project':
         with col5:
             st.image("https://a.storyblok.com//f/106061/2560x1446/2fa10839b7/into-the-metaverse-how-ar-vr-are-revolutionising-gaming.jpg/m/3840x0/filters:quality(75)")
         with col6:
-            st.subheader("VIRTUAL ARMORY: IMMERSIVE EXPLORING MILITARY OBJECT IN VR ")
+            st.subheader("VIRTUAL ARMORY: IMMERSIVE EXPLORING MILITARY OBJECT IN VR")
             st.write("""
             Description: The project aiming to enhance the educational experience for pupils in 
             the National Cadet Corps (NCC) is a multifaceted initiative designed to immerse students in a comprehensive virtual learning environment.
@@ -105,20 +105,16 @@ if selected == 'Project':
             - C# Programming
             - Interactive Mechanics 
 
-
             [Project Link](https://drive.google.com/drive/folders/1P7An94aq0jkz_1BdhNpQyFtMpM9IGMGu?usp=drive_link)
             """)
 
-
-    
     with st.container():
-        
         st.write("##")
         col7, col8 = st.columns((1, 2))
         with col7:
             st.image("https://www.collidu.com/media/catalog/product/img/2/6/264daf6f89210308410d11c868f172f22a5368509e816157d95fb4ce3d6fc4f9/hospital-management-system-slide1.png")
         with col8:
-            st.subheader("Project Title: Hospital Management System")
+            st.subheader("Hospital Management System")
             st.write("""
             Description: This project involves creating a comprehensive hospital management system 
             that can handle patient records.
@@ -131,10 +127,7 @@ if selected == 'Project':
             [Project Link](https://github.com/ARAVINDANS25/Python_and_SQL-project/blob/main/Hospital%20Management%20System.ipynb)
             """)
     st.write("---")
-  
-    import streamlit as st
 
-# Creating a container for the second project
     with st.container():
         col9, col10 = st.columns((1, 2))
         with col9:
@@ -153,9 +146,6 @@ if selected == 'Project':
 
             [Project Link](https://github.com/ARAVINDANS25/Data-science-and-ML/blob/main/Android%20Malware%20Detection.ipynb)
             """)
-            
-    
-
 
 if selected == 'Contacts':
     with st.container():
@@ -168,17 +158,16 @@ if selected == 'Contacts':
         - [Email](mailto:aravindans2503@gmail.com)
         """)
 
-
         st.write("##")
-            st.subheader("Or send me a message directly:")
+        st.subheader("Or send me a message directly:")
         
-            contact_form = """
-            <form action="https://formsubmit.co/aravindans2503@gmail.com" method="POST">
+        contact_form = """
+        <form action="https://formsubmit.co/aravindans2503@gmail.com" method="POST">
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="name" placeholder="Your name" required>
             <input type="email" name="email" placeholder="Your email" required>
             <textarea name="message" placeholder="Your message here" required></textarea>
             <button type="submit">Send</button>
-            </form>
-            """
-            st.markdown(contact_form, unsafe_allow_html=True)
+        </form>
+        """
+        st.markdown(contact_form, unsafe_allow_html=True)
