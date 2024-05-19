@@ -157,5 +157,3 @@ if selected == 'Contacts':
         - [GitHub](https://github.com/ARAVINDANS25)
         - [Email](mailto:aravindans2503@gmail.com)
         """)
-
-
