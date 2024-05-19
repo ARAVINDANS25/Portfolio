@@ -77,7 +77,7 @@ if selected == 'About':
             st.subheader("Certifications")
             certifications = [
                 {"name":"Hands-On Essentials: Data Warehousing Workshop", "link": "https://achieve.snowflake.com/8527c457-c00e-4f42-afc1-10bd73c02780"},
-                {"name":"Hands-On Essentials: Data Application Builders Workshop", "https://achieve.snowflake.com/d65b1299-a94b-4a1c-a9bf-a6c1f4eede2f"},
+                {"name":"Hands-On Essentials: Data Application Builders Workshop","link": "https://achieve.snowflake.com/d65b1299-a94b-4a1c-a9bf-a6c1f4eede2f"},
                 {"name":"Hands-On Essentials: Collaboration, Marketplace & Cost Estimation Workshop", "link": "https://achieve.snowflake.com/9674e7cb-57db-4778-b3ab-5d915d338765"},
                 {"name": "Hands-On Essentials: Data Lake Workshop", "link": "https://achieve.snowflake.com/d8889d6b-286d-4820-8fca-e5d5bf4a3093"},
                 {"name": "Hands-On Essentials: Data Engineering Workshop", "link": "https://achieve.snowflake.com/4be693b6-7348-4966-bca9-d3be704b8ade"}
