@@ -92,10 +92,24 @@ if selected == 'About':
 
 if selected == "Project":
     with st.container():
-        st.header("My projects")
+        st.header("My Projects")
         st.write("##")
-        col5, col6 = st.columns((1,2))
+        col5, col6 = st.columns((1, 2))
         with col5:
-            st.image(image)
+            st.image("https://www.collidu.com/media/catalog/product/img/2/6/264daf6f89210308410d11c868f172f22a5368509e816157d95fb4ce3d6fc4f9/hospital-management-system-slide1.png")
+        with col6:
+            st.subheader("Project Title: Hospital Management System")
+            st.write("""
+            Description: This project involves creating a comprehensive hospital management system 
+            that can handle patient records.
+            
+            Technologies Used:
+            - Python
+            - SQL
+            - HTML/CSS
+            
+            [Project Link](https://github.com/your-username/hospital-management-system)
+            """)
+    st.write("---")
         
     
