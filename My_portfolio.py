@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie
+from PIL import Image
 
 # Configure the page layout to be wide
 st.set_page_config(layout="wide")
@@ -13,6 +14,8 @@ def load_lottieurl(url):
     return r.json()
 
 lottie_coder = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAADPga8.json")
+image = Image.open("https://www.collidu.com/media/catalog/product/img/2/6/264daf6f89210308410d11c868f172f22a5368509e816157d95fb4ce3d6fc4f9/hospital-management-system-slide1.png")
+
 
 # Add a spacer
 st.write("##")
@@ -86,3 +89,13 @@ if selected == 'About':
             ]
             for cert in certifications:
                 st.write(f"[{cert['name']}]({cert['link']})")
+
+if selected == "Project":
+    with st.container():
+        st.header("My projects")
+        st.write("##")
+        col5, col6 = st.columns((1,2))
+        with col5:
+            st.image(image)
+        
+    
