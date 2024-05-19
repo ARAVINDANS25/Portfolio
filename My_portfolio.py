@@ -88,6 +88,7 @@ if selected == 'About':
                 st.write(f"[{cert['name']}]({cert['link']})")
 
 if selected == 'Project':
+    st.header("My Projects")
     with st.container():
         col5, col6 = st.columns((1, 2))
         with col5:
@@ -111,7 +112,7 @@ if selected == 'Project':
 
     
     with st.container():
-        st.header("My Projects")
+        
         st.write("##")
         col7, col8 = st.columns((1, 2))
         with col7:
@@ -162,7 +163,7 @@ if selected == 'Contacts':
         st.write("""
         Feel free to reach out to me through any of the following platforms:
         
-        - [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile)
-        - [GitHub](https://github.com/your-username)
-        - [Email](mailto:your-email@example.com)
+        - [LinkedIn](www.linkedin.com/in/aravindan-s25)
+        - [GitHub](https://github.com/ARAVINDANS25)
+        - [Email](aravindans2503@gmail.com)
         """)
