@@ -89,12 +89,34 @@ if selected == 'About':
 
 if selected == 'Project':
     with st.container():
-        st.header("My Projects")
-        st.write("##")
         col5, col6 = st.columns((1, 2))
         with col5:
-            st.image("https://www.collidu.com/media/catalog/product/img/2/6/264daf6f89210308410d11c868f172f22a5368509e816157d95fb4ce3d6fc4f9/hospital-management-system-slide1.png")
+            st.image("https://a.storyblok.com//f/106061/2560x1446/2fa10839b7/into-the-metaverse-how-ar-vr-are-revolutionising-gaming.jpg/m/3840x0/filters:quality(75)")
         with col6:
+            st.subheader("VIRTUAL ARMORY: IMMERSIVE EXPLORING MILITARY OBJECT IN VR ")
+            st.write("""
+            Description: The project aiming to enhance the educational experience for pupils in 
+            the National Cadet Corps (NCC) is a multifaceted initiative designed to immerse students in a comprehensive virtual learning environment.
+
+            Technologies Used:
+            - Unity Development
+            - 3D Modeling and Design
+            - C# Programming
+            - Interactive Mechanics 
+
+
+            [Project Link](https://drive.google.com/drive/folders/1P7An94aq0jkz_1BdhNpQyFtMpM9IGMGu?usp=drive_link)
+            """)
+
+
+    
+    with st.container():
+        st.header("My Projects")
+        st.write("##")
+        col7, col8 = st.columns((1, 2))
+        with col7:
+            st.image("https://www.collidu.com/media/catalog/product/img/2/6/264daf6f89210308410d11c868f172f22a5368509e816157d95fb4ce3d6fc4f9/hospital-management-system-slide1.png")
+        with col8:
             st.subheader("Project Title: Hospital Management System")
             st.write("""
             Description: This project involves creating a comprehensive hospital management system 
@@ -113,10 +135,10 @@ if selected == 'Project':
 
 # Creating a container for the second project
     with st.container():
-        col7, col8 = st.columns((1, 2))
-        with col7:
+        col9, col10 = st.columns((1, 2))
+        with col9:
             st.image("https://emeritus.org/in/wp-content/uploads/sites/3/2023/01/What-is-machine-learning-Definition-types.jpg.optimal.jpg")
-        with col8:
+        with col10:
             st.subheader("Diverse Machine Learning Approaches for Effective Malware Detection")
             st.write("""
             Description: This project involves developing a machine learning model to detect Android malware based on permissions and API calls.
@@ -130,6 +152,8 @@ if selected == 'Project':
 
             [Project Link](hhttps://github.com/ARAVINDANS25/Data-science-and-ML/blob/main/Android%20Malware%20Detection.ipynb)
             """)
+            
+    
 
 
 if selected == 'Contacts':
