@@ -80,7 +80,7 @@ if selected == 'About':
                 {"name":"Hands-On Essentials: Data Application Builders Workshop","link": "https://achieve.snowflake.com/d65b1299-a94b-4a1c-a9bf-a6c1f4eede2f"},
                 {"name":"Hands-On Essentials: Collaboration, Marketplace & Cost Estimation Workshop","link":"https://achieve.snowflake.com/9674e7cb-57db-4778-b3ab-5d915d338765"},
                 {"name":"Hands-On Essentials: Data Lake Workshop","link":"https://achieve.snowflake.com/d8889d6b-286d-4820-8fca-e5d5bf4a3093"},
-                {"name":"Hands-On Essentials: Data Engineering Workshop","link":"https://achieve.snowflake.com/4be693b6-7348-4966-bca9-d3be704b8ade"}
+                {"name":"Hands-On Essentials: Data Engineering Workshop","link":"https://achieve.snowflake.com/4be693b6-7348-4966-bca9-d3be704b8ade"},
                 {"name":"SQL- The Complete Introduction to SQL programming","link":"https://udemy-certificate.s3.amazonaws.com/image/UC-05e4994c-688a-4280-9ed7-d3d5e023cb5a.jpg"},
                 {"name":"Python Programming - From Basics to Advanced level [2024]","link":"https://udemy-certificate.s3.amazonaws.com/image/UC-9e0966de-64ba-4b83-8be8-d678411ae789.jpg"}
             ]
