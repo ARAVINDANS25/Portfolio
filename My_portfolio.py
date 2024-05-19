@@ -151,7 +151,7 @@ if selected == 'Project':
             - Association Rule Mining
             - Datasets: Drebin and Malgenome
 
-            [Project Link](hhttps://github.com/ARAVINDANS25/Data-science-and-ML/blob/main/Android%20Malware%20Detection.ipynb)
+            [Project Link](https://github.com/ARAVINDANS25/Data-science-and-ML/blob/main/Android%20Malware%20Detection.ipynb)
             """)
             
     
