@@ -112,24 +112,24 @@ if selected == 'Project':
     import streamlit as st
 
 # Creating a container for the second project
-with st.container():
-    col7, col8 = st.columns((1, 2))
-    with col7:
-        st.image("https://emeritus.org/in/wp-content/uploads/sites/3/2023/01/What-is-machine-learning-Definition-types.jpg.optimal.jpg")
-    with col8:
-        st.subheader("Diverse Machine Learning Approaches for Effective Malware Detection")
-        st.write("""
-        Description: This project involves developing a machine learning model to detect Android malware based on permissions and API calls.
+    with st.container():
+        col7, col8 = st.columns((1, 2))
+        with col7:
+            st.image("https://emeritus.org/in/wp-content/uploads/sites/3/2023/01/What-is-machine-learning-Definition-types.jpg.optimal.jpg")
+        with col8:
+            st.subheader("Diverse Machine Learning Approaches for Effective Malware Detection")
+            st.write("""
+            Description: This project involves developing a machine learning model to detect Android malware based on permissions and API calls.
 
-        Technologies Used:
-        - Python
-        - Machine Learning (Random Forest, Decision Trees, Logistic Regression, SVM, KNN)
-        - Frequent Pattern Growth (FP-growth) Algorithm
-        - Association Rule Mining
-        - Datasets: Drebin and Malgenome
+            Technologies Used:
+            - Python
+            - Machine Learning (Random Forest, Decision Trees, Logistic Regression, SVM, KNN)
+            - Frequent Pattern Growth (FP-growth) Algorithm
+            - Association Rule Mining
+            - Datasets: Drebin and Malgenome
 
-        [Project Link](hhttps://github.com/ARAVINDANS25/Data-science-and-ML/blob/main/Android%20Malware%20Detection.ipynb)
-        """)
+            [Project Link](hhttps://github.com/ARAVINDANS25/Data-science-and-ML/blob/main/Android%20Malware%20Detection.ipynb)
+            """)
 
 
 if selected == 'Contacts':
