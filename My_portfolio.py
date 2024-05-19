@@ -1,8 +1,21 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+import requests
+from streamlit_lottie import st_lottie
+
 
 # Configure the page layout to be wide
 st.set_page_config(layout="wide")
+
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code !=200:
+        return None
+    return r.json()
+
+lottie_coder = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_UBiAADPga8.json")
+
+
 
 # Add a spacer
 st.write("##")
@@ -42,4 +55,7 @@ if selected == 'About':
       st.subheader("I am Aravindan S")
       st.title("PG at MCA")
     with col2:
+        st_lottie(lottie_coder)
+
+    
       
