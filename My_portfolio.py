@@ -163,7 +163,7 @@ if selected == 'Contacts':
         st.write("""
         Feel free to reach out to me through any of the following platforms:
         
-        - [LinkedIn](www.linkedin.com/in/aravindan-s25)
+        - [LinkedIn](https://www.linkedin.com/in/aravindan-s25/)
         - [GitHub](https://github.com/ARAVINDANS25)
         - [Email](aravindans2503@gmail.com)
         """)
